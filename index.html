@@ -340,113 +340,109 @@
 							<h1>Testimonials</h1>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-lg-6 col-md-6 vol-wrap">
-							<div class="single-vol">
-								<div class="content">
-								    <a href="#award1" data-toggle="modal">
-								      <div class="content-overlay"></div>
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/award/a1.jpg" alt="">
-								      	<div class="content-details fadeIn-bottom">
-								      		<h4>Award Name 1</h4>
-								      	</div>
-								    </a>
-								 </div>
+					<div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+						  <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+						  <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+						  <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<a href="#award1" data-toggle="modal"><img src="img/award/a.jpg" class="d-block w-100" alt="..."></a>
+							<div class="carousel-caption d-none d-md-block">
+							  <h5>First Intern Name</h5>
+							  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 							</div>
+						  </div>
+						  <div class="carousel-item">
+							<a href="#award2" data-toggle="modal"><img src="img/award/a.jpg" class="d-block w-100" alt="..."></a>
+							<div class="carousel-caption d-none d-md-block">
+							  <h5>Second Intern Name</h5>
+							  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						  </div>
+						  <div class="carousel-item">
+							<a href="#award3" data-toggle="modal"><img src="img/award/a.jpg" class="d-block w-100" alt="..."></a>
+							<div class="carousel-caption d-none d-md-block">
+							  <h5>Third Intern Name</h5>
+							  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+							</div>
+						  </div>
 						</div>
+						<a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						  </a>
+						  <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						  </a>
+					  </div>
 						<!-- Popup Modal for Award 1 -->
 						<div class="modal fade" id="award1" role="dialog">
-							<div class="modal-dialog">
+							<div class="modal-dialog modal-lg">
 							  <div class="modal-content">
 								<div class="modal-header">
-								  <h4 class="modal-title">Award Name 1</h4>
+								  <h4 class="modal-title">INTERNS SPEAK</h4>
 								  <button type="button" class="close" data-dismiss="modal">&times;</button>
 								</div>
 								<div class="modal-body">
 								  <div class="row">
 									  <div class="col-sm-2"></div>
 									  <div class="col-sm-8 text-center">
-										  <img src="img/award/a1.jpg" class="content-image img-fluid rounded s-block mx-auto">
+										  <img src="img/award/a.jpg" class="content-image img-fluid rounded s-block mx-auto">
 									  </div>
 									  <div class="col-sm-2"></div>
 								  </div>
 								  <br>
 								  <div class="row">
 									  <div class="col-sm-12 text-center">
-										  <h5><p>Award 1 Description here An award, sometimes called a distinction, is something given to a recipient as a token of recognition of excellence in a certain field. When the token is a medal, ribbon or other item designed for wearing, it is known as a decoration.</p></h5>
+										  <h5><p>Hey everyone, this's Yogender.I did my internship with Sudaksh organization in December'2019. My experience is 10/10. I wasn't expecting this to an internship but this happened; be it traveling, be it food, be it the place we were residing, everything was so damn good! Talking about when we were going to public interactions, nukad naatak, plastic rallies, restoration of the parks and telling the people what is the difference that exists between the two dustbins, it was a difficult task, but when it is about to team it's nothing difficult. There's a difference between all time work in work and play in play but what I learnt in this internship is that work and play exist together. Thank you so much Sudaksh organization, thank you so much Anusha di for selecting me; and a big thumbs up to the team leader Mohit sir. I thank him. Under his guidance, we were able to do what we desired to. Everyone winning for the opportunity, do grab it, don't loose it, you'll regret it; and I give two big thumbs up to this organization, thank you so much.</p></h5>
 									  </div>
 								  </div>
 								</div>
 							  </div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 vol-wrap">
-							<div class="single-vol">
-								<div class="content">
-								    <a href="#award2" data-toggle="modal">
-								      <div class="content-overlay"></div>
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/award/a2.jpg" alt="">
-								      	<div class="content-details fadeIn-bottom">
-								      		<h4>Award Name 2</h4>
-								      	</div>
-								    </a>
-								 </div>
 							</div>
 						</div>
 						<!-- Popup Modal for Award 2 -->
 						<div class="modal fade" id="award2" role="dialog">
-							<div class="modal-dialog">
+							<div class="modal-dialog modal-lg">
 							  <div class="modal-content">
 								<div class="modal-header">
-								  <h4 class="modal-title">Award Name 2</h4>
+								  <h4 class="modal-title">INTERNS SPEAK</h4>
 								  <button type="button" class="close" data-dismiss="modal">&times;</button>
 								</div>
 								<div class="modal-body">
 								  <div class="row">
 									  <div class="col-sm-2"></div>
 									  <div class="col-sm-8 text-center">
-										  <img src="img/award/a2.jpg" class="content-image img-fluid rounded s-block mx-auto">
+										  <img src="img/award/a.jpg" class="content-image img-fluid rounded s-block mx-auto">
 									  </div>
 									  <div class="col-sm-2"></div>
 								  </div>
 								  <br>
 								  <div class="row">
 									  <div class="col-sm-12 text-center">
-										  <h5><p>Award 2 Description here An award, sometimes called a distinction, is something given to a recipient as a token of recognition of excellence in a certain field. When the token is a medal, ribbon or other item designed for wearing, it is known as a decoration.</p></h5>
+										  <h5><p>on having conversation with them we got to know that they found them fortunate enough to complete a *duration*  internship with this NGO Sudaksh De Nayi Pehchaan, an experience which was while challenging at times was invaluable in so many ways. They interned with a positive attitude,good work ethics and willingness to get involved wherever they were needed. They all have gained practical NGO based experience which also would be helpful in their future as volunteering internships allow you to work closely on important societal issues and let you contribute to the society. An NGO internship could be a chance to make new friends and get inspired by your fellow volunteers. This could play a significant role in building your character as you inculcate yourself, qualities like empathy, patience and optimism.</p></h5>
 									  </div>
 								  </div>
 								</div>
 							  </div>
 							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-6 col-md-6 vol-wrap">
-							<div class="single-vol">
-								<div class="content">
-								    <a href="#award3" data-toggle="modal">
-								      <div class="content-overlay"></div>
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/award/a3.jpg" alt="">
-								      	<div class="content-details fadeIn-bottom">
-								      		<h4>Award Name 3</h4>
-								      	</div>
-								    </a>
-								 </div>
-							</div>
-						</div>
 						<!-- Popup Modal for Award 3 -->
 						<div class="modal fade" id="award3" role="dialog">
-							<div class="modal-dialog">
+							<div class="modal-dialog modal-lg">
 							  <div class="modal-content">
 								<div class="modal-header">
-								  <h4 class="modal-title">Award Name 3</h4>
+								  <h4 class="modal-title">INTERNS SPEAK</h4>
 								  <button type="button" class="close" data-dismiss="modal">&times;</button>
 								</div>
 								<div class="modal-body">
 								  <div class="row">
 									  <div class="col-sm-2"></div>
 									  <div class="col-sm-8 text-center">
-										  <img src="img/award/a3.jpg" class="content-image img-fluid rounded s-block mx-auto">
+										  <img src="img/award/a.jpg" class="content-image img-fluid rounded s-block mx-auto">
 									  </div>
 									  <div class="col-sm-2"></div>
 								  </div>
@@ -458,19 +454,6 @@
 								  </div>
 								</div>
 							  </div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 vol-wrap">
-							<div class="single-vol">
-								<div class="content">
-								    <a href="#award4" data-toggle="modal">
-								      <div class="content-overlay"></div>
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/award/a4.jpg" alt="">
-								      	<div class="content-details fadeIn-bottom">
-								      		<h4>Award Name 4</h4>
-								      	</div>
-								    </a>
-								 </div>
 							</div>
 						</div>
 						<!-- Popup Modal for Award 4 -->
@@ -499,8 +482,6 @@
 							  </div>
 							</div>
 						</div>
-
-					</div>
 				</div>
 			</section>
 			<!-- End Awards and Achivement Area -->
