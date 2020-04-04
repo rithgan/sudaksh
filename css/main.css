@@ -81,11 +81,33 @@
 
 .carousel-control-prev,
 .carousel-control-next{
-background: #38a4ff;
 height: fit-content;
 width: fit-content;
 top: auto;
 padding: 10px;
 border-radius: 50%;
+position: relative;
+display: inline;
 }
 
+.carouselControl{
+width: fit-content;
+margin: 0px auto;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+
+/*footer*/
+ 
+.footer-area{
+  background: #d94b38;
+  color: white;
+}
+
+.disclaimer,.copyright{
+  padding: 50px 0 50px 0;
+}
