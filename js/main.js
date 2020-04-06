@@ -107,7 +107,7 @@ $(document).ready(function(){
  });
 
 
- //testimonial
+ //testimonial - By Shubham Sharma - Do Not Remove
 
  $(document).ready(function() {
   $("#myCarousel").on("slide.bs.carousel", function(e) {
