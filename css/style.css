@@ -5159,8 +5159,6 @@ a.close.disabled {
   color: #fff;
   text-align: center; }
 
-
-
 @-webkit-keyframes spinner-border {
   to {
     -webkit-transform: rotate(360deg);
@@ -9027,7 +9025,7 @@ h1, h2, h3, h4, h5,
     margin-right: 10px;
     display: inline-block; }
 
-.form-control {
+/*.form-control {
   height: 52px !important;
   background: #fff !important;
   color: #000000 !important;
@@ -9036,7 +9034,7 @@ h1, h2, h3, h4, h5,
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
   .form-control:focus, .form-control:active {
-    border-color: #000000; }
+    border-color: #000000; }*/
 
 textarea.form-control {
   height: inherit !important; }

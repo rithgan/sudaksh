@@ -107,27 +107,32 @@ $(document).ready(function(){
  });
 
 
+ 
+ 
+ 
+
+
  //testimonial - By Shubham Sharma - Do Not Remove
 
  $(document).ready(function() {
-  $("#myCarousel").on("slide.bs.carousel", function(e) {
+  $("#myCarousel").on("slide.bs.mycarousel", function(e) {
     var $e = $(e.relatedTarget);
     var idx = $e.index();
     var itemsPerSlide = 3;
-    var totalItems = $(".carousel-item").length;
+    var totalItems = $(".mycarousel-item").length;
 
     if (idx >= totalItems - (itemsPerSlide - 1)) {
       var it = itemsPerSlide - (totalItems - idx);
       for (var i = 0; i < it; i++) {
         // append slides to end
         if (e.direction == "left") {
-          $(".carousel-item")
+          $(".mycarousel-item")
             .eq(i)
-            .appendTo(".carousel-inner");
+            .appendTo(".mycarousel-inner");
         } else {
-          $(".carousel-item")
+          $(".mycarousel-item")
             .eq(0)
-            .appendTo($(this).find(".carousel-inner"));
+            .appendTo($(this).find(".mycarousel-inner"));
         }
       }
     }

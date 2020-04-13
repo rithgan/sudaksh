@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 			<!--
 			CSS
 			============================================= -->
@@ -49,7 +50,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-	
+	.flip-box {
+  background-color: transparent;
+  width: 500px;
+  height:530px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #98FB98;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
 .fa {
   padding: ;
   font-size: 22px;
@@ -74,6 +115,16 @@
 .fa-instagram {  color: #125688;}
 
 .fa-pinterest {  color: #cb2027;}
+
+.water{  }
+
+.education{ align: right;  }
+
+.health{   }
+
+.environment{   }
+
+
 
 
 
@@ -105,7 +156,7 @@
 	        	<li class="nav-item"><a href="#" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="#" class="nav-link">Project</a></li>
 	        	<li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-	            <li class="nav-item"><a href="#" class="nav-link">Awards  and  Recognition</a></li>
+	            <li class="nav-item"><a href="#testimonial" class="nav-link">Interns Speak</a></li>
 	        	<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
@@ -176,88 +227,190 @@
 </div>
 
 <!--CAROUSEL ends -->
+			<!-- End callto Area -->
 
-			<!-- Start volunteer Area -->
-			<section class="volunteer-area section-gap">
+
+			<!-- Start project Area -->
+
+			<section class="project-area section-gap" id="project">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="col-md-8 pb-80 header-text">
-							<h1>Our Volunteers</h1>
+							<h1>Waiting for Help</h1>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore  et dolore magna aliqua.
 							</p>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-3 col-md-3 vol-wrap">
-							<div class="single-vol">
+						<div class="col-lg-4 col-md-4 project-wrap">
+							<div class="single-project">
 								<div class="content">
 								    <a href="#" target="_blank">
 								      <div class="content-overlay"></div>
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/v1.jpg" alt="">
+								  		 <img class="content-image img-fluid d-block mx-auto" src="img/p1.jpg" alt="">
 								      	<div class="content-details fadeIn-bottom">
-								      		<h4>Andy Florence</h4>
-								      		<p>
-								      			inappropriate behavior
-								      		</p>
+								      		<a href="#" class="head-btn btn text-uppercase">Donate Now</a>
 								      	</div>
 								    </a>
 								 </div>
 							</div>
+							<div class="details">
+								<a href="#"><h2>Easy Flight Search</h2></a>
+						  		<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.</p>
+						  		<a class="text-uppercase" href="#">read more</a>
+							</div>
+
 						</div>
-						<div class="col-lg-3 col-md-3 vol-wrap">
-							<div class="single-vol">
+						<div class="col-lg-4 col-md-4 project-wrap">
+							<div class="single-project">
 								<div class="content">
 								    <a href="#" target="_blank">
 								      <div class="content-overlay"></div>
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/v2.jpg" alt="">
+								  		 <img class="content-image img-fluid d-block mx-auto" src="img/p2.jpg" alt="">
 								      	<div class="content-details fadeIn-bottom">
-								      		<h4>Andy Florence</h4>
-								      		<p>
-								      			inappropriate behavior
-								      		</p>
+								      		<a href="#" class="head-btn btn text-uppercase">Donate Now</a>
 								      	</div>
 								    </a>
 								 </div>
 							</div>
+							<div class="details">
+								<a href="#"><h2>Easy Flight Search</h2></a>
+						  		<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.</p>
+						  		<a class="text-uppercase" href="#">read more</a>
+							</div>
 						</div>
-						<div class="col-lg-3 col-md-3 vol-wrap">
-							<div class="single-vol">
+						<div class="col-lg-4 col-md-4 project-wrap">
+							<div class="single-project">
 								<div class="content">
 								    <a href="#" target="_blank">
 								      <div class="content-overlay"></div>
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/v3.jpg" alt="">
+								  		 <img class="content-image img-fluid d-block mx-auto" src="img/p3.jpg" alt="">
 								      	<div class="content-details fadeIn-bottom">
-								      		<h4>Andy Florence</h4>
-								      		<p>
-								      			inappropriate behavior
-								      		</p>
+								      		<a href="#" class="head-btn btn text-uppercase">Donate Now</a>
 								      	</div>
 								    </a>
 								 </div>
 							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 vol-wrap">
-							<div class="single-vol">
-								<div class="content">
-								    <a href="#" target="_blank">
-								      <div class="content-overlay"></div>
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/v4.jpg" alt="">
-								      	<div class="content-details fadeIn-bottom">
-								      		<h4>Andy Florence</h4>
-								      		<p>
-								      			inappropriate behavior
-								      		</p>
-								      	</div>
-								    </a>
-								 </div>
+							<div class="details">
+								<a href="#"><h2>Easy Flight Search</h2></a>
+						  		<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.</p>
+						  		<a class="text-uppercase" href="#">read more</a>
 							</div>
 						</div>
 
 					</div>
 				</div>
 			</section>
-			<!-- End volunteer Area -->
+
+			<!-- End project Area -->
+
+			
+			<!-- Start about Area -->
+			<section class="about-area" id="about">
+				<div class="container-fluid">
+					<div class="row d-flex justify-content-end align-items-center">
+						<div class="col-lg-6 col-md-12 about-left no-padding">
+							<img class="img-fluid" src="img/about-img.jpg" alt="">
+						</div>
+						<div class="col-lg-6 col-md-12 about-right">
+							<h1>About Us </h1>
+							<p>
+								About Us Content...!!!!
+							</p>
+							<div class="footer-social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
+						</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End about Area -->
+
+			<!-- Start Our Impact Area -->
+			<br><br>
+			<h1 align="center">Our Impact</h1>
+			<br>
+		<section class="impact-area" id="impact">
+				<div class="container-fluid">
+					<div class="row d-flex justify-content-end align-items-center">
+			
+			<div class="flip-box" >
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<img src="img\impact.jpg" alt="Water" style="width:500px; height:530px;">
+					</div>
+					<div class="flip-box-back">
+						<h2><br>Water</h2>
+						<br>
+						<p>while water is a sustainable resource, it's in the meantime a limited resource. Water is essential forever for life. Sudaksh de nayi Pehchaan has undertaken considerable grassroot level work towards water conservation and management in both rural and urban scenario. It has conducted several awareness programs in Uttar Pradesh, Madhya Pradesh, Delhi. Mass awareness is being spread by the organisation through various nukkad natak and awareness drives on water conservation and management with the active involvement of the public. Here the public interaction plays the vital role as to know about their current problems they're facing related to water depletion. As with all countries with excess water consumption depletes the overall water table. Rain water harvesting could be one solution for water collection. Collected water can be immediately used for agriculture, and with improved filtration practices to reduce water-borne pathogens, also quickly available for human consumption. The organization time to time carries out research and studies on the existence of the historical water bodies. The same time, the water bodies which have been enroached are saved through raising awareness amongst the local community.</p>
+					</div>
+				</div>
+			</div>
+				
+				<div class="flip-box">
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<img src="img\impact.jpg" alt="Water" style="width:500px; height:530px;">
+					</div>
+					<div class="flip-box-back">
+						<h2><br>Education</h2>
+						<br>
+						<p>The organisation has addressed several issues such as child rights, importance of sex education, menstrual hygiene, sex related taboos prevailing in our society, need for gender sensitisation. Sudakh has conducted no. awareness programmes in various schools of Uttarpradesh, focussing on menstrual hygiene whereby it has mentioned some facts that providing education about menstrual hygiene to women and girls will make them feel more comfortable and also educating males about menstruation will make it a more comfortable topic to discuss. Sudaksh has conducted several sessions at schools in rural areas of Uttarpradesh to make children understand what child abuse is, what sex education is, how it impacts children and how parents and schools can be urged to make sex education a regular class in schools. The organisation has worked over facilitating a comprehensive and common understanding about gender equality and making people aware about the importance of it for the development of Society. It focuses on the fact that Gender equality and women’s empowerment can only be brought about by changing the mind-set of people and breaking the societal norms to involve men in the process.</p>
+					</div>
+				</div>
+			</div>
+				</div>
+				</div>
+			</section>
+			
+			
+			<section class="impact-area" id="impact">
+				<div class="container-fluid">
+					<div class="row d-flex justify-content-end align-items-center">
+			<div class="flip-box">
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<img src="img\impact.jpg" alt="Water" style="width:500px; height:530px;">
+					</div>
+					<div class="flip-box-back">
+						<h2><br>Health</h2>
+						<br>
+						<p>: In India, some of the best healthcare in the world is delivered through the private sector.
+Lack of hospitals, missing doctors, ill-equipped health professionals, and paucity of funds have dogged the Indian health sector for decades. Each year nearly 40 million Indians are thrown into poverty because of out of pocket health spending. Sudaksh has undertaken its initiative for getting these disparities removed. It has conducted some healthcare activities and public awareness programmes in rural areas of Uttar Pradesh, Madhya Pradesh; in these programmes the free medicines, face masks were distributed among the people living there. Awareness programmes have been conducted to present some facts like diarrheal diseases are the primary causes of early childhood mortality, these diseases can be attributed to poor sanitation and inadequate safe drinking water. India has the world's highest incidence of rabies.The primary focus of the organisation is to fulfil the basic health and social needs of underprivileged sections of the society like poor, women, elderly, children etc. Sudaksh is continuously scouting the people living here and even providing them with the basic healthcare treatments and medicines.
+</p>
+					</div>
+				</div>
+			</div>
+				
+				<div class="flip-box">
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<img src="img\impact.jpg" alt="Water" style="width:500px; height:530px;">
+					</div>
+					<div class="flip-box-back">
+						<h2><br>Environment</h2>
+						<br>
+						<p>Air pollution, water pollution, garbage domestically prohibited goods and pollution of the natural environment are all major challenges for India.
+						Sudaksh has initiated it's drive for this and people who are part of this impart environmental education and education through camps for teachers and students 
+						and conduct surveys on environment in villages of Uttarpradesh and Madhya Pradesh; they have made handmade dustbins in a locality of Madhya Pradesh to spread
+						awareness on importance of cleanliness, had distributed cloth bags to people living in those villages and also they've conducted awareness programmes on
+						the infectious diseases caused from unclean surroundings. Public interaction has played an integral role every time.The NGO has addressed the importance of waste
+						segregation and making them know about the difference that exists between the two(green and blue) dustbins and how people could practice waste segregation at their own level.
+						The NGO has also given its contribution in parks restoration and also promoted public to participate.</p>
+					</div>
+				</div>
+			</div>
+				</div>
+				</div>
+			</section>
+			<br>
+			<br>
+			
+			<!-- End Our Impact Area -->
 
 
 			<!-- Start donate Area -->
@@ -337,9 +490,9 @@
 			<section class="testimonial-area section-gap" id="testimonial">
 					<div class="container">
 						<h1 class="text-center mb-3">Interns Speak</h1>
-						<div id="mycaroousel" class="caroousel slide" data-ride="caroousel">
-						  <div class="caroousel-inner row w-100 mx-auto">
-							<div class="caroousel-item col-md-4 active">
+						<div id="myCarousel" class="mycarousel slide" data-ride="mycarousel">
+						  <div class="mycarousel-inner row w-100 mx-auto">
+							<div class="mycarousel-item col-md-4 active">
 								<a data-toggle="modal" href="#intern1"><div class="card" style="background-color: transparent; border: 0px;">
 								<img class="card-img-top img-fluid rounded-circle border border-primary" src="img/intern/i1.jpg" alt="Card image cap">
 								<div class="card-body">
@@ -348,7 +501,7 @@
 							  </div>
 							</a>
 							</div>
-							<div class="caroousel-item col-md-4">
+							<div class="mycarousel-item col-md-4">
 								<a data-toggle="modal" href="#intern2">
 							  <div class="card" style="background-color: transparent; border: 0px;">
 								<img class="card-img-top img-fluid rounded-circle border border-secondary" src="img/intern/i2.jpg" alt="Card image cap">
@@ -358,7 +511,7 @@
 							  </div>
 							</a>
 							</div>
-							<div class="caroousel-item col-md-4">
+							<div class="mycarousel-item col-md-4">
 								<a data-toggle="modal" href="#intern3">
 							  <div class="card" style="background-color: transparent; border: 0px;">
 								<img class="card-img-top img-fluid rounded-circle border border-primary" src="img/intern/i3.jpg" alt="Card image cap">
@@ -369,13 +522,13 @@
 							  </a>
 							</div>
 						  </div>
-						  <div class="caroouselControl">
-							<a class="caroousel-control-prev" href="#mycaroousel" role="button" data-slide="prev">
-								<span class="caroousel-control-prev-icon" aria-hidden="true"></span>
+						  <div class="mycarouselControl">
+							<a class="mycarousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+								<span class="mycarousel-control-prev-icon" aria-hidden="true"></span>
 								<span class="sr-only">Previous</span>
 							  </a>
-							  <a class="caroousel-control-next" href="#mycaroousel" role="button" data-slide="next">
-								<span class="caroousel-control-next-icon" aria-hidden="true"></span>
+							  <a class="mycarousel-control-next" href="#myCarousel" role="button" data-slide="next">
+								<span class="mycarousel-control-next-icon" aria-hidden="true"></span>
 								<span class="sr-only">Next</span>
 							  </a>
 						  </div>
@@ -414,7 +567,7 @@
 								<div class="modal-body">
 								  <div class="row justify-content-center">
 									  <div class="col-12 text-center">
-										  <img class="content-image img-fluid s-block mx-auto rounded-circle  border border-primary" src="img/intern/i1.jpg">
+										  <img class="content-image img-fluid s-block mx-auto rounded-circle  border border-primary" src="img/intern/i2.jpg">
 									  </div>
 									  <div class="row-12 text-center"><br>
 										  <h3>Intern Name</h3><br>
@@ -437,7 +590,7 @@
 								<div class="modal-body">
 								  <div class="row justify-content-center">
 									  <div class="col-12 text-center">
-										  <img class="content-image img-fluid s-block mx-auto rounded-circle  border border-primary" src="img/intern/i1.jpg">
+										  <img class="content-image img-fluid s-block mx-auto rounded-circle  border border-primary" src="img/intern/i3.jpg">
 									  </div>
 									  <div class="row-12 text-center"><br>
 										  <h3>Intern Name</h3><br>
@@ -469,11 +622,9 @@
 					<div class="row text-center text-xs-center text-sm-left text-md-left">
 						<div class="col-xs-12 col-sm-6">
 							<h3 class="font-weight-bold light">Contact Us</h3><br>
-							<address><i class="material-icons"><i class="fa fa-map-marker" style="font-size:28px;color:white"></i></i>Tura Mandi Chowk, Najafagarh, New Delhi-110043</address>
-							<address><a href="mailto:sudakshngo@gmail.com" class="text-light"><i class="material-icons">
-<i class="fa fa-envelope" style="font-size:28px;color:white"></i></i>sudakshngo@gmail.com</a></address>
-							<address><a href="tel:+919210818788" class="text-light"><i class="material-icons">
-<i class="fa fa-phone" style="font-size:28px;color:white"></i></i>+91 9210818788</a>, <a href="tel:+918802321777" class="text-light">+91 8802321777</a></address>
+							<address><i class="material-icons">place</i>Tura Mandi Chowk, Najafagarh, New Delhi-110043</address>
+							<address><a href="mailto:sudakshngo@gmail.com" class="text-light"><i class="material-icons">mail</i>sudakshngo@gmail.com</a></address>
+							<address><a href="tel:+919210818788" class="text-light"><i class="material-icons">local_phone</i>+91 9210818788</a>, <a href="tel:+918802321777" class="text-light">+91 8802321777</a></address>
 						</div>
 						<div class="col-xs-12 col-sm-6">
 							<h3 class="font-weight-bold light">Write Us</h3><br>
@@ -497,7 +648,7 @@
 							<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfuucT03fLMMiWznZfdjt79ctn1hs8KUxQ-PdS7eG8nOGnTWw/formResponse" target="hidden_iframe" onsubmit="submitted=true;" method="POST" id="mG61Hd">
 								<div class="form-group">
 								  <label for="email">Email Address : </label>
-								  <input name="entry.526189910" type="email" class="form-control col-md-10" id="email" aria-describedby="emailHelp" placeholder="Enter Email Here" style="background: red; color: red; border-color: red;" required>
+								  <input name="entry.526189910" type="email" class="form-control col-md-10" id="email" aria-describedby="emailHelp" placeholder="Enter Email Here" style="background: transparent; color: white; border-color: white;" required>
 								  <div class="invalid-feedback text-light">
 									Please enter valid email.
 								  </div>
@@ -521,10 +672,16 @@
 				</div>
 			</footer>
 			<!-- End footer Area -->
+
+<!-- loader -->
   
 			
+
+
+
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+			<script src="js/vendor/intern.js"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>
 			<script src="js/jquery.ajaxchimp.min.js"></script>
 			<script src="js/jquery.nice-select.min.js"></script>
@@ -534,16 +691,10 @@
 			<script src="js/jquery.magnific-popup.min.js"></script>
 			<script src="js/main.js"></script>
 
+			<script src="js/owl.carousel.min.js"></script>
 
+			<script src="js/jquery.min.js"></script>
 
-
-<script src="js/vendor/jquery-2.2.4.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-
-
-<script src="js/owl.carousel.min.js"></script>
-
-<script src="js/jquery.min.js"></script>
-
+			
 		</body>
 	</html>
