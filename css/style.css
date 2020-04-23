@@ -3434,11 +3434,11 @@ input[type="button"].btn-block {
 .top-navbar .navbar-light .navbar-nav .nav-item{
   position: relative;
   display: inline-block;
-  padding: 10px 1px;
+  padding: 0px 1px;
  
 }
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link{
-  padding: 6px 0px;
+  padding: 0px 0px;
   position: relative;
   display: block;
   line-height: 30px;
@@ -3455,7 +3455,7 @@ input[type="button"].btn-block {
     width: 5px;
   height: 5px;
     opacity: 0;
-    margin-left: -3px;
+    margin-left: -20px;
     background-color: #006900;
   border-radius: 50px;
     -webkit-transform: translateY(0px);
@@ -3470,7 +3470,7 @@ input[type="button"].btn-block {
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link::before {
     position: absolute;
     content: '';
-    left: 0%;
+    left: -10px;
     bottom: auto;
     top: -4px;
     width: 5px;
@@ -3636,7 +3636,7 @@ input[type="button"].btn-block {
 .navbar-toggler{
   background: #ffffff;
   border-radius: 0px;
-  padding: 10px 10px;
+  padding: 0px 10px;
 }
 
 .navbar-toggler .icon-bar {
@@ -8139,7 +8139,7 @@ h1, h2, h3, h4, h5,
     font-size: 12px;
     padding-top: ;
     padding-bottom: ;
-    padding-left: 23px;
+    padding-left: ;
     padding-right: 23px;
     font-weight: 500;
     color: #000000;
@@ -8173,7 +8173,7 @@ h1, h2, h3, h4, h5,
         transform: scaleX(1); }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-        padding-left: 10px;
+        padding-left: ;
         padding-right: 0;
         padding-top: ;
         padding-bottom: ;
